@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: emma-blog/content/about.md/**/*
+  path: emma-blog/content/about.md
   label: about
 - type: directory
   path: emma-blog/content/posts
