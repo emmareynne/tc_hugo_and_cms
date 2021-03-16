@@ -1,4 +1,83 @@
 ---
 label: about
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
+- name: selfie
+  type: boolean
+  label: Selfie
+  description: toggle to display/hide selfie
+- name: birthday
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Birthday
+- name: personality_traits
+  type: tag_list
+  default: []
+  label: Personality Traits
+- name: top_five_favorite_foods
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Top Five Favorite Foods
+- name: upload_selfie
+  type: file
+  config:
+    maxSize: 64
+  label: Upload Selfie
+- name: social_media
+  type: field_group
+  config: {}
+  fields:
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: github
+    type: text
+    config:
+      required: false
+    label: Github
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: reddit
+    type: text
+    config:
+      required: false
+    label: Reddit
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: LinkedIn
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  label: Social Media
+  description: List social media links here
