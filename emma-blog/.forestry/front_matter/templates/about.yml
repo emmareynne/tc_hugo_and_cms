@@ -81,3 +81,5 @@ fields:
     label: Facebook
   label: Social Media
   description: List social media links here
+pages:
+- emma-blog/content/about.md
