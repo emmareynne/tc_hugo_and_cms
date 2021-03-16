@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <article>
+    <header>
+      <h2>{{ .Title }}</h2>
+      <p>By: {{ .Params.Author }}</p>
+      <p>{{ .Date.Format "January 2, 2006" }}</p>
+      {{$totalwords := countwords .Content}}
+      <p>Reading time: {{ math.Round (div $totalwords 200.0) }} minutes.</p>
+    </header>
+
+    <section class="body">
+      {{ .Content }}
+    </section>
+
+    <section class="related">
+      {{ $related := .Site.RegularPages.Related . | first 5}}
+      {{ with $related }}
+        <h3>Related pages</h3>
+        <ul>
+          {{ range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </section>
+
+  </article>
+{{ end }}

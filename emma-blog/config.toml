@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Emma's blog"
+theme = "emma-blog"
+Paginate = 3
