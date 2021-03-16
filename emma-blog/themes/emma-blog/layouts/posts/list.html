@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <h2>{{ .Title }}</h2>
+  <h2 class="post-list-title">{{ .Title }}</h2>
 
   {{ range .Paginator.Pages }}
     {{ partial "post_summary.html" . }}
