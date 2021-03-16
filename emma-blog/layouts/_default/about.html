@@ -1,7 +1,37 @@
 {{ define "main" }}
 
-<h2>{{ .Title }}</h2>
+<h1>{{ .Title }}</h1>
 
-{{ .Content }}
+{{ if .Params.selfie}}
+  <img width=25% src="{{ .Params.upload_selfie }}">
+{{ end }}
+
+<h2>About Emma:</h2>
+{{ .Params.content }}
+<hr>
+  <p>Emma's Birthday is on {{ .Params.birthday }}</p>
+  <p>Please send presents.</p>
+<hr>
+  <p>Personality Traits:</p>
+  <ul>
+    {{ range .Params.personality_traits }}
+      <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+<hr>
+  <p>Emma's Top Five Favorite Foods</p>
+  <ol>
+    {{ range .Params.top_five_favorite_foods }}
+      <li>{{ . }}</li>
+    {{ end }}
+  </ol>
+<hr>
+  <p>Follow us!</p>
+  <p><a href="{{.Params.social_media.twitter }}">Twitter</a></p>
+  <p><a href="{{.Params.social_media.github }}">Github</a></p>
+  <p><a href="{{.Params.social_media.facebook }}">Facebook</a></p>
+  <p><a href="{{.Params.social_media.instagram }}">Instagram</a></p>
+  <p><a href="{{.Params.social_media.reddit }}">Reddit</a></p>
+  <p><a href="{{.Params.social_media.linkedin }}">Linkedin</a></p>
 
 {{ end }}

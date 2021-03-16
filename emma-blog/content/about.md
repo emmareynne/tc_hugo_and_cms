@@ -22,6 +22,6 @@ social_media:
   reddit: https://www.reddit.com/user/reynne25
   linkedin: https://www.linkedin.com/in/emmareynne/
   facebook: https://www.facebook.com/emmareynne
+layout: about
 
 ---
-Hello I am Emma. Nice to meet you ⚢
