@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: emma-blog/about.md
+  label: about
+  match: "**/*"
 - type: directory
   path: emma-blog/content/posts
   label: posts
