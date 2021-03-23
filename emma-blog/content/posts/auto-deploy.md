@@ -17,7 +17,7 @@ tags:
 year: "2021"
 month: "2021/03"
 ---
-Cupcake ipsum dolor sit. Amet oat cake soufflé. Sugar plum liquorice cake cake carrot cake I love bear claw.
+Auto deploy blog article.
 
 <!--more-->
 
