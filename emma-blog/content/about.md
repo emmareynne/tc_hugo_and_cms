@@ -24,4 +24,5 @@ social_media:
   facebook: https://www.facebook.com/emmareynne
 layout: about
 image: "https://via.placeholder.com/200x100.png?text=About"
+description: I am Emma.
 ---

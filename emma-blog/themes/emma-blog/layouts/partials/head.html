@@ -18,7 +18,13 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{ .RelPermalink }}" />
   <meta property="og:image:url" content="{{ .Params.image }}" />
-  <meta property="og:description" content="{{ .Summary }}" />
+  <meta property="og:description" content="
+      {{ with .Params.Summary }}
+        {{ .Params.Summary }}
+      {{ else }}
+        {{ .Params.description }}
+      {{ end }}
+    " />
   <title>
     {{- if .Page.IsHome -}}
       {{ .Site.Title }}
