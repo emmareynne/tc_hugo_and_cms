@@ -1,0 +1,2 @@
+{{ $spotifyID := replace (index .Params 0) "spotify:album:" "" }}
+<iframe src="https://open.spotify.com/embed/album/{{ $spotifyID }}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
