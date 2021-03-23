@@ -3,7 +3,7 @@ title: "I Am Emma"
 date: 2021-03-16T12:19:12-05:00
 draft: false
 author: Emma Reynne
-
+image: "/uploads/126289423_10224416150572691_4953559227203626244_o.jpg"
 categories:
 - Blog
 - Coding

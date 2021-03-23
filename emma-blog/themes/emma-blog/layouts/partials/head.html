@@ -14,6 +14,10 @@
    {{ range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
   {{- end -}}
   ">
+  <meta property="og:title" content="{{ .Params.title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ .RelPermalink }}" />
+  <meta property="og:image" content="{{ .Params.image }}" />
   <title>
     {{- if .Page.IsHome -}}
       {{ .Site.Title }}
