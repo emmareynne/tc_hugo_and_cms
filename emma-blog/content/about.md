@@ -6,8 +6,8 @@ personality_traits:
 - lesbian
 - gaymer
 content: I don't know what I'm doing. Pls send help.
-selfie: true
-birthday: 1989-11-09T12:00:00+00:00
+selfie: false
+birthday: 1989-11-09T12:00:00.000+00:00
 top_five_favorite_foods:
 - Biang Biang Mian
 - Transphobe Tears
