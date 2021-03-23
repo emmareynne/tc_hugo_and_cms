@@ -3,7 +3,7 @@ title: "Welcome"
 date: 2021-03-16T12:18:57-05:00
 draft: false
 author: Emma Reynne
-image: "https://via.placeholder.com/400x200.png?text=Welcome"
+image: "https://via.placeholder.com/200x100.png?text=Welcome"
 categories:
 - Blog
 - Coding

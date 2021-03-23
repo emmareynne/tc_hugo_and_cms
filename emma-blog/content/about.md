@@ -23,5 +23,5 @@ social_media:
   linkedin: https://www.linkedin.com/in/emmareynne/
   facebook: https://www.facebook.com/emmareynne
 layout: about
-
+image: "/uploads/126289423_10224416150572691_4953559227203626244_o.jpg"
 ---

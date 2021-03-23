@@ -3,7 +3,7 @@ title: "Hugo Is Best"
 date: 2021-03-16T12:19:52-05:00
 draft: false
 author: Emma Reynne
-image: "https://via.placeholder.com/400x200.png?text=Hugo+Is+Best"
+image: "https://via.placeholder.com/200x100.png?text=Hugo+Is+Best"
 categories:
 - Blog
 - Coding
