@@ -1,0 +1,8 @@
+{
+  "posts": [
+  {{- range $index, $page := (where .Site.RegularPages "Type" "in" "posts") }} {{- if $index -}} , {{- end }}
+  {
+  "url": {{ .Permalink | jsonify }},
+  "title": {{ .Title | jsonify }} }
+  {{- end }} ]
+}
